@@ -1,0 +1,2 @@
+REM open a command line using Run as Administrator while logged on as an Administrator
+net localgroup administrators
