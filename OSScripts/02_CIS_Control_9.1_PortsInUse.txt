@@ -1,0 +1,4 @@
+--and from the windows command line
+
+--and see what ports are in use generally
+netstat -ano

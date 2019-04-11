@@ -1,0 +1,6 @@
+1. click on the Windows Start
+2. click on Run
+3. Enter cmd
+4. right click and select Run as Administrator
+5. Enter net localgroup administrators 
+6. take a screenshot showing all results

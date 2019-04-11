@@ -1,0 +1,28 @@
+
+--and see what permissions are in effect for SQL Server executable folders
+1. click on the Windows Start
+2. click on Run
+3. Enter cmd
+4. Enter commands listed below.  It is likely you will have to correct the file paths depending on version
+5. take a screenshot showing all results
+
+
+
+REM List permissions for the “C:\Program Files\Microsoft SQL Server” directory.
+
+icacls "C:\Program Files\Microsoft SQL Server"
+
+REM List permissions for the “C:\Program Files\Microsoft SQL Server\MSSQL10_50.MSSQLSERVER\MSSQL\Binn” directory.
+
+
+icacls "C:\Program Files\Microsoft SQL Server\MSSQL10_50.MSSQLSERVER\MSSQL\Binn"
+
+REM  List permissions for the “C:\Program Files\Microsoft SQL Server\80\Tools\Binn” directory.
+
+
+icacls "C:\Program Files\Microsoft SQL Server\80\Tools\Binn"
+
+REM List permissions for the “C:\Program Files\Microsoft SQL Server\80\Com” directory.
+
+
+icacls "C:\Program Files\Microsoft SQL Server\80\COM"

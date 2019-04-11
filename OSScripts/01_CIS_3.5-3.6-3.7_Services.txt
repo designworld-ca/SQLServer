@@ -1,0 +1,12 @@
+--gathers information for CIS 3.5, 3.6, 3.7 3.6 
+--MSSQL Service,SQL Agent, Text Service accounts are not Administrators
+
+1. click on the Windows Start
+2. click on Run
+3. Enter services.msc
+4. take a screenshot showing all services. 
+Expand the column size to clearly show 
+-the name of the service
+-state  
+-account that runs it
+5. take a screenshot

@@ -1,0 +1,12 @@
+REM checks CIS Control 9.1 limit Open Ports, Protocols, and Services for the Server and Database
+REM and see what ports are in use at this point in time
+1. click on the Windows Start
+2. click on Run
+3. Enter cmd
+4. Enter netstat -ano
+5. take a screenshot showing all results
+6. Open Windows Task Manager
+7. Click on Services Tab
+8. Sort by PID
+9. Take a screenshot of all processes using a PID
+

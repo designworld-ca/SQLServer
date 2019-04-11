@@ -1,0 +1,5 @@
+--an anti-virus solution should be present and updated with current definitions on every server
+
+1.	Right click on any anti-virus solution 
+2.	Select the option to show the details
+3.	Take a screenshot showing when the local client was last updated with new definitions

@@ -1,0 +1,13 @@
+Run SQL Server features discovery report
+from https://docs.microsoft.com/en-us/sql/database-engine/install-windows/validate-a-sql-server-installation?view=sql-server-2017
+Launch the SQL Server Installation center
+1) Start menu
+2) go to All Programs 
+3) select MicrosoftSQL Server <Version Name>
+4) select Configuration Tools
+5) select SQL Server Installation Center 
+6) select Tools in the left-hand navigation area of SQL Server Installation Center
+7) Select Installed SQL Server features discovery report.
+
+The SQL Server discovery report is saved to 
+%ProgramFiles%\MicrosoftSQL Server\nnn\Setup Bootstrap\Log\<last Setup Session>.
