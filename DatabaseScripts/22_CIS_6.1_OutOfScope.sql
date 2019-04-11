@@ -1,0 +1,4 @@
+--Check with the application teams to ensure any database interaction is through the use of
+--stored procedures and not dynamic SQL. Revoke any INSERT, UPDATE, or DELETE privileges
+--to users so that modifications to data must be done through stored procedures. Verify that
+--there's no SQL query in the application code produced by string concatenation.
