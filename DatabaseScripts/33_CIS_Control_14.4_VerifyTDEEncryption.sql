@@ -1,6 +1,7 @@
 --only works on 2008 and newer and only available on Enterprise version
 --shows whether TDE encryption is in use and what cipher strength
---values for db.is_encrypted are 1 for encrypted, for dm.encryption_state a value of 2 indicates encryption is in progress --and 3 indicates that encryption is complete
+--values for db.is_encrypted are 1 for encrypted, for dm.encryption_state a value of 2 indicates encryption is in progress 
+--and 3 indicates that encryption is complete
 --see https://docs.microsoft.com/en-us/sql/relational-databases/security/encryption/transparent-data-encryption?view=sql-server-2017
 USE master; 
 GO
