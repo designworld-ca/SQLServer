@@ -1,3 +1,5 @@
+--cannot implement TDE if instant file initialization is enabled
+--this seems to be the default setting for SQL Server 2016
 SELECT  @@SERVERNAME AS [Server Name] ,
         RIGHT(@@version, LEN(@@version) - 3 - CHARINDEX(' ON ', @@VERSION)) AS [OS Info] ,
         LEFT(@@VERSION, CHARINDEX('-', @@VERSION) - 2) + ' '
