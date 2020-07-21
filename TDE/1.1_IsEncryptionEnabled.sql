@@ -1,3 +1,4 @@
+--see 33_CIS_Control_14.4_VerifyTDEEncryption.sql
 SELECT
     db.name,
     db.is_encrypted,
