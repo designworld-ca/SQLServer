@@ -1,5 +1,7 @@
 --cannot implement TDE if instant file initialization is enabled
 --this seems to be the default setting for SQL Server 2016
+--does not seem to be turned off which would require a reboot, after TDE applied it is no longer in effect
+--**to be verified**
 SELECT  @@SERVERNAME AS [Server Name] ,
         RIGHT(@@version, LEN(@@version) - 3 - CHARINDEX(' ON ', @@VERSION)) AS [OS Info] ,
         LEFT(@@VERSION, CHARINDEX('-', @@VERSION) - 2) + ' '
