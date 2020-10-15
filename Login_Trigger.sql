@@ -1,4 +1,6 @@
---CHANGE DB NAME. 3 places to change
+--CHANGE DB NAME as required
+--logon trigger used with a dedicated table
+--this information is also shown in the event log if you configure SQL Server to do so but is hard to manage with so many other entries
 
 USE master
 GO
