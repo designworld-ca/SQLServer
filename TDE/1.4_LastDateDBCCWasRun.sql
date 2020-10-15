@@ -1,5 +1,6 @@
 -- source: https://jasonbrimhall.info/2012/11/20/last-known-good-checkdb
 --should not try and implement TDE if a checkdb has not been run recently
+--a corrupt block will stop encryption of a database
 --if DBCC CheckDb has never been run the field dbccLastKnownGood will show the default year of Jan 1, 1900
 
 CREATE TABLE #temp (
