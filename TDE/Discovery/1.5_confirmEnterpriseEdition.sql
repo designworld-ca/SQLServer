@@ -1,0 +1,2 @@
+SELECT SERVERPROPERTY('Edition');
+Go
