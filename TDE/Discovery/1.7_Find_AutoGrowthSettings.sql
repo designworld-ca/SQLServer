@@ -1,3 +1,7 @@
+--TDE does not allow instant file initialization, so it takes a little longer to add more space to a database file.  
+--This should not be an issue except for edge cases where the database frequently loads lots of data fast
+--such as a data warehouse or analytics use case
+
 select DB_NAME(mf.database_id) database_name
 , mf.name logical_name
 , CONVERT (DECIMAL (20,2) , (CONVERT(DECIMAL, size)/128)) [file_size_MB]
